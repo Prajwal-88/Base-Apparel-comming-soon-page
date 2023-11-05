@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- js link -->
+  <script src="./src/app/js/script.js" defer></script>
+  <link rel="stylesheet" href="./src/app/dist/output.css">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="font-josefin">
+  <div class="wrapper md:grid grid-cols-5 ">
+    <div class=" content-wrapper col-span-3 md:p-0 md:pe-36 md:ps-24 lg:ps-40">
+      <header class="mb-8 md:pt-10 md:mb-20">
+        <div class="logo-wrapper ps-7 py-7  min-[500px]:ps-9 min-[500px]:py-7 ">
+          <img src="./assets/images/logo.svg" alt="" class="h-5 min-[500px]:h-7">
+        </div>
+        <img src="./assets/images/hero-mobile.jpg" alt="" class="w-full md:hidden  ">
+      </header>
+      <main class="text-center p-6 min-[500px]:text-left ">
+        <h1 class="text-4xl uppercase tracking-[.3em] font-semibold mb-4 text-Dark_Grayish_Red md:text-5xl md:leading-[3.3rem] lg:text-[3.5rem] lg:leading-[4rem]"><span class="text-Desaturated_Red font-extralight ">We're </span><br class="hidden lg:block">coming <br class="hidden lg:block">soon</h1>
+        <p class="text-[15px] text-Desaturated_Red mb-7 md:text-[1rem] md:mb-12 lg:w-[27rem] lg:text-[1.1rem] lg:mb-10">Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="relative lg:w-[27rem]">
+          <input type="text" placeholder="Email Address
+          " class="text-sm text-left input-section border-2 border-Desaturated_Red px-5 py-3 rounded-full w-full " id="text-sec">
+          <button class="absolute -right-0"><img src="./assets/images/icon-error.svg" alt="" class="absolute -left-10 mt-3 hidden" id="icon-error"><img src="./assets/images/icon-arrow.svg" alt="" class="bg-gradient-to-r from-_2_from to-_2_to px-6 py-3 rounded-full h-[48px] hover:bg-gradient-to-r hover:from-_2_from hover:to-_2_from md:px-9 active:scale-110 hover:shadow-Desaturated_Red shadow-xl" id="submit-btn"></button>
+          <p class="text-Soft_Red text-xs ps-5 pt-2 hidden" id="error-txt">Please Provide a vaild email</p>
+        </div>
+      </main>
+    </div>
+    <img src="./assets/images/hero-desktop.jpg" alt="hero-desktop" class="hidden md:block w-full mb-0 col-span-2 h-[51rem]">
+  </div>
+
+  
+
+
+
+  
+</body>
+</html>
